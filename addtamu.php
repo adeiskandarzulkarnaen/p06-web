@@ -10,6 +10,6 @@ $ini_query = "INSERT INTO tamu VALUES(NULL, '$nama', '$email')";
 
 mysqli_query($koneksi, $ini_query);
 
-header("Location: ./index.php");
+header("Location: ./tampilkan.php");
 
 exit;

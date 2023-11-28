@@ -1,5 +1,5 @@
 
-CREATE DATABASE db_coba;
+CREATE DATABASE db_tamu;
 
 CREATE TABLE tamu(
     idtamu INT NOT NULL AUTO_INCREMENT,

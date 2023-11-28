@@ -1,7 +1,7 @@
 <?php
 
 /* membuat koneksi */
-$koneksi = mysqli_connect("localhost", "root", "", "db_coba");
+$koneksi = mysqli_connect("localhost", "root", "", "db_tamu");
 
 /* cek koneksi */
 if ($koneksi) {

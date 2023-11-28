@@ -20,6 +20,7 @@
                 KIRIM ❤
             </button>
         </form>
+        <a href="tampilkan.php">lihat data tamu</a>
     </div>
 </body>
 
