@@ -11,6 +11,10 @@
     height: 100vh;
 }
 
+h1 {
+    margin: 10px;
+}
+
 lable,
 input {
     display: block;
@@ -36,4 +40,20 @@ input {
 #btn-kirim:hover {
     background-color: orange;
     color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
 }

@@ -4,11 +4,12 @@
 <head>
     <title>form tamu</title>
     <link rel="stylesheet" href="style.css">
+    <title>tambah tamu</title>
 </head>
 
 <body>
     <div class="kotak">
-        <h1>ini form</h1>
+        <h1>tambah tamu</h1>
         <form action="addtamu.php" method="post">
             <label for="nama">NAMA</label>
             <input type="text" name="nama" class="form-input" maxlength="100" required>
@@ -20,7 +21,7 @@
                 KIRIM ❤
             </button>
         </form>
-        <a href="tampilkan.php">lihat data tamu</a>
+        <br><a href="tampilkan.php">lihat data tamu</a>
     </div>
 </body>
 

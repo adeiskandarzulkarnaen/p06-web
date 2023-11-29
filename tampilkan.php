@@ -3,23 +3,6 @@
     <head>
         <title>Menampilkan Data Tamu</title>
         <link rel="stylesheet" href="./style.css">
-        <style>
-            table {
-                border-collapse: collapse;
-                width: 50%;
-                margin: 20px;
-            }
-
-            td, th {
-                border: 1px solid black;
-                text-align: left;
-                padding: 8px;
-            }
-
-            th {
-                background-color: #f2f2f2;
-            }
-        </style>
     </head>
 
     <body>

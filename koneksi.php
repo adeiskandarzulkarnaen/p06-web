@@ -3,12 +3,7 @@
 /* membuat koneksi */
 $koneksi = mysqli_connect("localhost", "root", "", "db_tamu");
 
-/* cek koneksi */
-if ($koneksi) {
-    // echo "database terhubung 😍";
-    echo "<script> alert('sukses database terhubung!!!') </script>";
+/* cek koneksi, jika database tidak terhubung maka akan menampilkan script alert!!  */
+if (!$koneksi) {
+    echo "<script> alert('database gagal terhubung!!!') </script>";
 }
-
-
-// $query = "INSERT INTO tamu VALUES(NULL, 'zamzam', 'zamzam@itg.ac.id')";
-// mysqli_query($koneksi, $query);
